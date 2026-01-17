@@ -1,0 +1,116 @@
+
+@media screen and (max-width:868px) {
+    .nav-links ul{
+    gap: 5px;
+    }
+    .nav-links ul li{
+        padding: 8px 12px;
+    }
+    .nav-links ul li a {
+        padding: 0px 0px;
+    }
+    .main-baner{
+        flex-direction: column;
+        text-align: left;
+    }
+    .baner-contant h2{
+        font-size: 78px;
+    }
+
+}
+@media screen and (max-width:468px) {
+    .nav-links ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .menu-icon i{
+        color:#fff;
+        font-size: 24px;
+    }
+    .baner-contant h2{
+        font-size: 40px;
+    }
+    .baner-image .img-con1{
+    top: 50px;
+    right: -10px;
+    }
+    .img-con1 h3{
+    font-size: 30px;
+    }
+    .baner-image .img-con1 {
+    padding: 10px;
+    right: -5px;
+    }
+
+    .baner-image .img-con2{
+    bottom: 240px;
+    left: 0px;
+    }
+/* Habits section */
+    .havit-card {
+        flex-direction: column;
+        }
+    .habit-heading h2 {
+        font-size: 32px;
+        }
+/* run section */
+    .run-contant-img {
+        gap: 10px;
+        flex-direction: column;
+        }
+    .content h3 {
+        font-size: 32px;
+        }
+    .content .btn {
+        width: 100%;
+        }
+/* Trainings section */
+    .Trainings-heading h3{
+        font-size: 32px;
+    }
+    .ing-text1,
+    .ing-text2,
+    .ing-text3,
+    .ing-text4,
+    .ing-text5,
+    .ing-text6{
+        padding: 15px;
+    }
+        .big-layout {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        .normal-layout {
+            grid-column: span 2;
+            grid-row: span 2;
+        }
+        #Trainings{
+    padding: 10px 0;
+    }
+/* team section */
+    .team-heading h2 {
+        font-size: 32px;
+    }
+    .team-mamber {
+	    grid-template-columns: repeat(1,1fr);
+    }
+/* footer  */
+    .footer-content {
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+        padding: 30px;
+    }
+    .get.get1{
+        grid-column: span 2;
+    }
+    .get.get2{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .get h5 {
+        margin-bottom: 25px;
+    }
+
+}
