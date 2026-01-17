@@ -19,7 +19,9 @@ body{
     padding: 10px 20px;
     margin-right: 10px;
     border-radius: 30px;
+    cursor: pointer;
 }
+
 /* Navigation Styles */
 header{
     background: linear-gradient(#111111,#777777,#111111);
@@ -31,7 +33,7 @@ nav{
     margin: 0 auto;
     padding: 30px 0px;
 }
-.logo p{
+.logo h2{
     font-size: 36px;
     font-weight: bold;
     color: #E6533C;
@@ -84,14 +86,7 @@ nav{
     color: rgba(255, 255, 255, 0.5);
     line-height: 30px;
 }
-.baner-contant button{
-    background-color: #E6533C;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-right: 10px;
-    border-radius: 30px;
-}
+
 .baner-image{
     position: relative;
 }
@@ -316,7 +311,43 @@ nav{
     border-radius: 15px;
     
 }
+/* footer area design */
 
+footer{
+    background: rgba(255, 255, 255, 0.1);
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+}
+.logo{
+    grid-column: span 2;
+}
+.logo p{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+}
+.get ul li{
+    list-style: none;
+    padding: 10px;
+}
+.get ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+}
+.get h5{
+    font-size: 30px;
+    color: #fff;
+}
+.copy-right{
+    padding: 20px 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
 
 
 @media screen and (max-width:868px) {
