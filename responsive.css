@@ -16,6 +16,10 @@
     .baner-contant h2{
         font-size: 78px;
     }
+    .mamber .mamber-name-arafat {
+	background: rgba(0, 0, 0, 0);
+    color: aqua;
+    }
 
 }
 @media screen and (max-width:468px) {
