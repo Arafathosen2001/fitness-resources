@@ -134,16 +134,20 @@ nav{
 /* Habits area design */
 
 #habits,
-#run{
+#run,
+#team{
     padding: 50px 0;
 }
-.habit-heading *{
+.habit-heading *,.team-heading *{
     margin-bottom: 20px;
 }
-.habit-heading{
+.habit-heading,
+.team-heading
+{
     max-width: 770px;
     margin: 0 auto;
     text-align: center;
+    color: #fff;
 }
 .habit-heading h2{
     font-size: 48px;
@@ -202,19 +206,19 @@ nav{
 
 
 
-/* Meet Our Team Section */
-#meet{
+/* Trainings Our Team Section */
+#Trainings{
     padding: 80px 0;
 }
-.meet-heading{
+.Trainings-heading{
     max-width: 670px;
     text-align: left;
 }
-.meet-heading h3{
+.Trainings-heading h3{
     font-size: 48px;
     color: white;
 }
-.meet-heading p{
+.Trainings-heading p{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
     margin: 10px 0;
@@ -285,7 +289,33 @@ nav{
   justify-content: flex-end;
 }
 
+/* Team mamber area style */
 
+.team-mamber{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 30px;
+}
+.mamber{
+    position: relative;
+}
+.mamber .mamber-name{
+    position: absolute;
+    inset: 0;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: rgba(0, 0, 0, 0.3);
+}
+.mamber img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    
+}
 
 
 
@@ -345,7 +375,7 @@ nav{
             grid-column: span 2;
             grid-row: span 2;
         }
-        #meet{
+        #Trainings{
     padding: 10px 0;
 }
 }
