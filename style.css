@@ -12,6 +12,14 @@ body{
     max-width: 1060px;
     margin: 0 auto;
 }
+.btn{
+    background-color: #E6533C;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 30px;
+}
 /* Navigation Styles */
 header{
     background: linear-gradient(#111111,#777777,#111111);
@@ -125,7 +133,8 @@ nav{
 }
 /* Habits area design */
 
-#habits{
+#habits,
+#run{
     padding: 50px 0;
 }
 .habit-heading *{
@@ -163,6 +172,36 @@ nav{
 .card p{
     color: rgba(255, 255, 255, 0.5);
 }
+
+/* Run an Extra style */
+.run-contant-img{
+    background: rgba(34, 34, 34, 1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 165px;
+}
+.content *{
+    margin-bottom: 15px;
+}
+.content h3{
+    font-size: 48px;
+    color: #fff;
+}
+.content p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 30px;
+}
+.img img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
 /* Meet Our Team Section */
 #meet{
     padding: 80px 0;
@@ -245,6 +284,10 @@ nav{
   flex-direction: column;
   justify-content: flex-end;
 }
+
+
+
+
 
 @media screen and (max-width:868px) {
     .nav-links ul{
