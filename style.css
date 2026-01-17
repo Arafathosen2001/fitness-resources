@@ -21,6 +21,10 @@ body{
     border-radius: 30px;
     cursor: pointer;
 }
+.btn:hover{
+    opacity: 0.5;
+    color: #fff;
+}
 
 /* Navigation Styles */
 header{
@@ -206,7 +210,7 @@ nav{
     padding: 80px 0;
 }
 .Trainings-heading{
-    max-width: 670px;
+    max-width: 770px;
     text-align: left;
 }
 .Trainings-heading h3{
@@ -216,7 +220,8 @@ nav{
 .Trainings-heading p{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
-    margin: 10px 0;
+    margin: 10px 0 50px 0;
+    line-height: 30px;
 }
 
 .Exercises-area{
@@ -285,7 +290,16 @@ nav{
 }
 
 /* Team mamber area style */
-
+.team-heading{
+    max-width: 670px;
+}
+.team-heading h2{
+    font-size: 48px;
+}
+.team-heading p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 40px;
+}
 .team-mamber{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -294,6 +308,10 @@ nav{
 }
 .mamber{
     position: relative;
+}
+.mamber p{
+    margin-top: 5px;
+    color: rgba(255, 255, 255, 0.5);
 }
 .mamber .mamber-name{
     position: absolute;
