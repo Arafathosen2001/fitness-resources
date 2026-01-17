@@ -123,8 +123,46 @@ nav{
 .img-con2-inner h3{
     font-size: 24px;
 }
+/* Habits area design */
 
-
+#habits{
+    padding: 50px 0;
+}
+.habit-heading *{
+    margin-bottom: 20px;
+}
+.habit-heading{
+    max-width: 770px;
+    margin: 0 auto;
+    text-align: center;
+}
+.habit-heading h2{
+    font-size: 48px;
+    color: #fff;
+}
+.habit-heading p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.havit-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+.card *{
+    margin-bottom: 20px;
+}
+.card{
+    color: #fff;
+}
+.card img{
+    border-radius: 50%;
+}
+.card p{
+    color: rgba(255, 255, 255, 0.5);
+}
 /* Meet Our Team Section */
 #meet{
     padding: 80px 0;
@@ -140,7 +178,7 @@ nav{
 .meet-heading p{
     font-size: 20px;
     color: rgba(255, 255, 255, 0.5);
-    margin-top: 10px;
+    margin: 10px 0;
 }
 
 .Exercises-area{
@@ -149,11 +187,13 @@ nav{
     grid-template-rows: repeat(2,1fr);
 }
         .big-layout {
+            position: relative;
             grid-column: span 2;
             grid-row: span 1;
         }
 
         .normal-layout {
+            position: relative;
             grid-column: span 1;
             grid-row: span 1;
         }
@@ -162,7 +202,49 @@ nav{
     height: 100%;
 }
 
-
+.overlay {
+  position: absolute;
+  inset: 0;
+  color: white;
+}
+.ing-text1{
+    padding: 50px;
+  background: rgba(0, 128, 0, 0.6);
+   display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ing-text2{
+    padding: 50px;
+  background: rgba(255, 0, 0, 0.3);
+}
+.ing-text3{
+    padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ing-text4{
+    padding: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: right;
+}
+.ing-text5{
+    padding: 50px;
+  background: rgba(66, 255, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.ing-text6{
+    padding: 50px;
+  background: rgba(0, 71, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
 
 @media screen and (max-width:868px) {
     .nav-links ul{
@@ -189,7 +271,6 @@ nav{
     }
     .menu-icon{
         display: block;
-        color:#fff;
     }
     .menu-icon i{
         color:#fff;
